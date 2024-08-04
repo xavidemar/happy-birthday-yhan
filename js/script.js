@@ -94,10 +94,10 @@ document.addEventListener("DOMContentLoaded", function () {
             ["#2bebbc", "#05798a"],
             ["#ffd200", "#b06c00"]
         ];
-
+//TODO:AQUI ES LA FECHA
     function updateCountdown() {
         const now = new Date();        
-        const midnight = new Date(now.getFullYear(), 0, 18,0,0,0);
+        const midnight = new Date(now.getFullYear(), 7, 8,0,0,0);
         const diff = Math.max(0, midnight - now);
         console.log(diff)
         if(diff>0){
